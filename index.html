@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Restore Ecomerce website</title>
@@ -23,7 +24,7 @@
                     <img src="images/thanks.jpg" width="225px">
                 </div>
                 <nav>
-                    <ul>
+                    <ul id="MenuItems">
 
                         <li><a href=""></a>Home</a></li>
                         <li><a href=""></a>Product</a></li>
@@ -34,7 +35,7 @@
                     </ul>
 
                     <img src="images/lock.jpg" width="30px" height="30px">
-                    <img src="images/menu.jpg" class="menu-icon" onclick="me">
+                    <img src="images/menu.jpg" class="menu-icon" onclick="menutoggle()  ">
                 </nav>
 
             </div>
@@ -340,6 +341,21 @@
         <hr>
         <p class="Copyright">Copyright 2022 -Easy Tutorial</p>
     </div>
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+        MenuItems.style.maxHeight = "0px";
+        function menutoggle() {
+            if (MenuItems.style.maxHeight == "0px") {
+                MenuItems.style.maxHeight = "200px";
+
+            }
+            else {
+                MenuItems.style.maxHeight = "0px";
+
+            }
+
+        }
+    </script>
 </body>
 
 </html>
