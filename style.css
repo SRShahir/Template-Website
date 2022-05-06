@@ -4,13 +4,13 @@
     box-sizing: border-box;
 }
 
-/* body{
+body{
     font-family: 'Noto Sans', sans-serif;
-} */
+}
 .navbar {
     display: flex;
     align-items: center;
-    padding: 30px;
+    padding: 20px;
 }
 
 nav {
@@ -41,7 +41,7 @@ p {
 }
 
 .container {
-    max-width: 3300px;
+    max-width: 1300px;
     margin: auto;
     padding-left: 30px;
     padding-right: 30px;
@@ -98,7 +98,7 @@ p {
 
 .col-3 {
     flex-basis: 30%;
-    min-width: 250px;
+    min-width: 300px;
     margin-bottom: 30px;
 }
 
@@ -136,7 +136,6 @@ p {
 .title::after {
     content: "";
     background: #ff523b;
-
     width: 80px;
     height: 5px;
     border-radius: 5px;
@@ -166,6 +165,7 @@ h4 {
 .wallpaper {
     background: radial-gradient(#fff, #ffd6d6);
     margin-top: 80px;
+    padding: 30px 0;
 }
 
 .col-2 .wall-img {
@@ -175,6 +175,7 @@ h4 {
 small {
     color: #555;
 }
+/* testimonial */
 
 .testimonial {
     padding-top: 100px;
@@ -215,6 +216,7 @@ small {
     font-size: 16px;
 }
 
+/* brands */
 .brands {
     margin: 100px auto;
 }
@@ -287,7 +289,7 @@ ul {
 }
 
 .app-logo img {
-    width: 240px;
+    width: 200px;
 }
 
 .footer hr {
